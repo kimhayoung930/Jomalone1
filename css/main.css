@@ -33,7 +33,7 @@ body::-webkit-scrollbar-track {
 
 /* 메인 콘텐츠 */
 #main_content {
-    height: 11700px;
+    height: 12000px;
     background: url('../img/backimg.png') 50% 0;
     position: relative;
     width: 100%;
@@ -485,7 +485,7 @@ body::-webkit-scrollbar-track {
 
 /*section6*/ 
 .s6{
-    height: 700px;
+    height: 1000px;
     width: 80%;
     margin: 0 auto;
 }
