@@ -1,0 +1,684 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'twaysky';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*라벤더 랜드*/
+.lavender1{
+    width: 250px;
+    height: 250px;
+    margin-left: 15px;
+}
+.lavender1:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.lavender2{
+    width: 250px;
+    height: 250px;
+    margin-left: 15px;
+}
+.lavender2:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.lavender3{
+    width: 250px;
+    height: 250px;
+    margin-left: 15px;
+}
+.lavender3:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.landtext{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'twaysky';
+}
+.landtext:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.landtext1{
+    text-align: center;
+    margin-top: 20px;
+    color: #6c6262;
+    font-family: 'twaysky';
+}
+.landtex1:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.landtext2{
+    text-align: center;
+    color: #6c6262;
+    margin-top: 30px;
+    font-family: 'twaysky';
+}
+.landtext8{
+    display: none;
+}
+.landtext3:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*car diffver*/
+.carimg1{
+    height: 250px;
+    margin-top: 1px;
+    margin-left: 50px;
+}
+.carimg1:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.carimg2{
+    height: 245px;
+    margin-top: 1px;
+    margin-left: 50px;
+}
+.carimg2:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.carimg3{
+    height: 245px;
+    margin-top: 1px;
+    margin-left: 50px;
+}
+.carimg3:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.cartext{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'twaysky';
+}
+.cartext:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cartext1{
+    text-align: center;
+    color: #6c6262;
+    margin-top: 30px;
+    font-family: 'twaysky';
+}
+
+.cartext3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: 'twaysky';
+}
+.cartext3:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cartext4{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'twaysky';
+}
+.cartext4:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cartext5{
+    text-align: center;
+    color: #6c6262;
+    margin-top: 5px;
+    font-family: 'twaysky';
+}
+.cartext6{
+    display: none;
+    font-family: 'twaysky';
+}
+/*mist*/
+.mistimg1{
+    height: 245px;
+    margin-top: 1px;
+    margin-left: 50px;
+}
+.mistimg1:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.mistimg2{
+    height: 245px;
+    margin-top: 1px;
+    margin-left: 50px;
+}
+.mistimg2:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.mistimg3{
+    height: 245px;
+    margin-top: 1px;
+    margin-left: 50px;
+}
+.mistimg3:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.misttext{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'twaysky';
+}
+.misttext:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.misttext1{
+    text-align: center;
+    color: #6c6262;
+    margin-top: 30px;
+    font-family: 'twaysky';
+}
+.misttext3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'twaysky';
+}
+.misttext3:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.misttext4{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'twaysky';
+}
+.misttext4:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.misttext5{
+    text-align: center;
+    color: #6c6262;
+    margin-top: -5px;
+    font-family: 'twaysky';
+}
+.misttext6{
+    display: none;
+    font-family: 'twaysky';
+}
+
+/*scents*/
+.scentstext{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'twaysky';
+}
+.scentstext:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.scentstext1{
+    text-align: center;
+    color: #6c6262;
+    margin-top: 30px;
+    font-family: 'twaysky';
+}
+.scentstext2{
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'twaysky';
+}
+.scentstext2:hover{
+    background: linear-gradient(to right, #c497f8, #5673bc, #bea0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.scentsimg1{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.scentsimg1:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.scentsimg2{
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.scentsimg2:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.scentsimg3{
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.scentsimg3:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.scentsimg4{
+    width: 200px;
+    height: 200px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.scentsimg4:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.scentsimg5{
+    width: 200px;
+    height: 200px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.scentsimg5:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.scentsimg6{
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.scentsimg6:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+/*body*/
+.bodyimg1{
+    width: 240px;
+    margin-top: 10px;
+}
+.bodyimg1:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.bodyimg2{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+.bodyimg2:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.bodyimg3{
+    width: 230px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.bodyimg3:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+/*hand*/
+.handimg1{
+    width: 180px;
+    margin-left: 45px;
+}
+.handimg1:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.handimg2{
+    width: 180px;
+    margin-left: 45px;
+}
+.handimg2:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.handimg3{
+    width: 180px;
+    margin-left: 45px;
+}
+.handimg3:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+/*online*/
+.onlineimg1{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.onlineimg1:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.onlineimg2{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.onlineimg2:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.onlineimg3{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.onlineimg3:hover{
+    opacity: 0.5;  
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+/*미디어쿼리*/
+@media screen and (max-width: 767px) {
+    /*라벤더 랜드*/
+.lavender1{
+    width: 140px;
+    height: 150px;
+    margin-left: 8px;
+}
+.lavender2{
+    width: 140px;
+    height: 150px;
+    margin-left: 8px;
+    margin-top: 15;
+}
+.lavender3{
+    width: 140px;
+    height: 150px;
+    margin-left: 8px;
+}
+.landtext{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+   
+}
+.landtext1{
+    display: none;
+}
+.landtext2{
+    display: none;
+    font-size: 0.1rem;
+    text-align: center;
+    color: #6c6262;
+    margin-top: 20px;
+}
+.landtext8{
+    display: block;
+    font-size: 0.1rem;
+    text-align: center;
+    color: #6c6262;
+    margin-top: 15px;
+    font-family: 'twaysky';
+    
+}
+.landtext3{
+    font-size: 0.8rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/*car diffver*/
+.carimg1{
+    height: 145px;
+    margin-top: 1px;
+    margin-left: 25px;
+}
+.carimg2{
+    height: 145px;
+    margin-top: 1px;
+    margin-left: 30px;
+}
+.carimg3{
+    height: 145px;
+    margin-top: 1px;
+    margin-left: 30px;
+}
+.cartext{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+
+}
+.cartext1{
+    font-size: 0.8rem;
+    margin-top: 10px;
+    text-align: center;
+    color: #6c6262;
+    margin-top: 30px;
+}
+.cartext3{
+    text-align: center;
+    font-size: 0.1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.cartext4{
+    text-align: center;
+    font-size: 0.1rem;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.cartext5{
+display: none;
+}
+.cartext6{
+    display: block;
+    font-size: 0.5rem;
+    text-align: center;
+    margin-top: -10px;
+    color: #6c6262;
+}
+/*mist diffver*/
+.mistimg1{
+    height: 145px;
+    margin-top: 1px;
+    margin-left: 25px;
+}
+.mistimg2{
+    height: 145px;
+    margin-top: 1px;
+    margin-left: 30px;
+}
+.mistimg3{
+    height: 145px;
+    margin-top: 1px;
+    margin-left: 30px;
+}
+.misttext{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.misttext1{
+    font-size: 0.8rem;
+    margin-top: 10px;
+    text-align: center;
+    color: #6c6262;
+    margin-top: 30px;
+}
+.misttext3{
+    text-align: center;
+    font-size: 0.4rem;
+    margin-top: 10pxpx;
+    margin-bottom: 10px;
+}
+.misttext4{
+    text-align: center;
+    font-size: 0.5rem;
+    margin-top: -10px;
+    margin-bottom: 20px;
+
+}
+.misttext5{
+display: none;
+}
+.misttext6{
+    display: block;
+    font-size: 0.5rem;
+    text-align: center;
+    margin-top: -10px;
+    color: #6c6262;
+}
+/*scents*/
+.scentstext{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.scentstext1{
+    font-size: 0.5rem;
+    text-align: center;
+    color: #6c6262;
+    margin-top: 10px;
+}
+.scentstext2{
+    font-size: 0.5rem;
+    margin-top: 5px;
+    text-align: center;
+}
+.scentsimg1{
+    width: 100px;
+    height: 100px;
+    margin-left: 43px;
+    margin-top: 20px;
+}
+.scentsimg2{
+    width: 100px;
+    height: 100px;
+    margin-left: 26px;
+    margin-top: 20px;
+}
+.scentsimg3{
+    width: 100px;
+    height: 100px;
+    margin-left: 29px;
+    margin-top: 20px;
+}
+.scentsimg4{
+    width: 100px;
+    height: 100px;
+    margin-left: 48px;
+    margin-top: 20px;
+}
+.scentsimg5{
+    width: 100px;
+    height: 100px;
+    margin-left: 48px;
+    margin-top: 20px;
+}
+.scentsimg6{
+    width: 100px;
+    height: 100px;
+    margin-left: 27px;
+    margin-top: 20px;
+}
+/*body*/
+.bodyimg1{
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.bodyimg2{
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 27px;
+}
+.bodyimg3{
+    width: 120px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+/*hand*/
+.handimg1{
+    width: 100px;
+    margin-left: 25px;
+}
+.handimg2{
+    width: 100px;
+    margin-left: 25px;
+}
+.handimg3{
+    width: 100px;
+    margin-left: 25px;
+}
+/*online*/
+.onlineimg1{
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.onlineimg2{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.onlineimg3{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.onlinetext1{
+    margin-top: 10px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
